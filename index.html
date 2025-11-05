@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <div class="banner">
+        <header>
+            <nav class="navbar navbar-expand-lg container-fluid">
+                <div class="row d-flex align-items-center justify-content-between w-100 navbar-row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="logo" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav gap-4">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-end">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="search-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="banner-image">
+            <img src="images/banner-light.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- category section start here -->
+    <section class="category-section my-5 text-center">
+        <!-- <h2 class="mb-3">our product category</h2> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 category-item">
+                    <div class="residential item">
+                        <h3 class="category-name capitalize">residential</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 category-item">
+                    <div class="commercial item">
+                        <h3 class="category-name capitalize">Commercial</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 category-item">
+                    <div class="industrial item">
+                        <h3 class="category-name capitalize">Industrial</h3>
+                    </div>
+                </div>
+                <div class="col-lg-8 category-item">
+                    <div class="outdoor item">
+                        <h3 class="category-name capitalize">Outdoor</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start here -->
+    <section>
+        <div class="about-section my-5 px-3">
+            <div class="container-fluid">
+                <h2 class="text-center mb-3">About Us</h2>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="about-image">
+                            <div class="inner-shadow"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="about-container">
+                            <p>
+                                Welcome to our company! We are dedicated to providing top-notch services and
+                                products to our customers. Our team of experts works tirelessly to ensure
+                                customer satisfaction and deliver exceptional results. With years of
+                                experience in the industry, we pride ourselves on our professionalism,
+                                reliability, and commitment to excellence. Thank you for choosing us as your
+                                trusted partner.
+                            </p>
+                            <p>
+                                Welcome to our company! We are dedicated to providing top-notch services and
+                                products to our customers. Our team of experts works tirelessly to ensure
+                                customer satisfaction and deliver exceptional results. With years of
+                                experience in the industry, we pride ourselves on our professionalism,
+                                reliability, and commitment to excellence. Thank you for choosing us as your
+                                trusted partner.
+                            </p>
+                            <button type="button" class="read-more-btn">Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- our item section start here  -->
+    <section>
+        <div class="items-section my-5 px-3">
+            <div class="container-fluid">
+                <h2 class="text-center mb-3">Our Products</h2>
+                <div class=" swiper mySwiper" dir="ltr">
+                    <div class="item-card swiper-wrapper">
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-2.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-3.png" alt="">
+                            </div>
+                            <!-- <h4 class="item-name">Product 1</h4> -->
+
+                        </div>
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-4.png" alt="">
+                            </div>
+                            <!-- <h4 class="item-name">Product 1</h4> -->
+
+                        </div>
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-5.png" alt="">
+                            </div>
+                            <!-- <h4 class="item-name">Product 1</h4> -->
+
+                        </div>
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-3.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="item-info swiper-slide">
+                            <div class="item-img">
+                                <img src="images/product-1.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product details section start here -->
+    <section>
+        <div class="item-details-section my-5 px-3">
+            <div class="container-fluid">
+                <h2 class="text-center mb-3">Product Details</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="item-detail-image">
+                            <div class="name">
+                                <h4 class="item-name md-3">Product Name</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="item-detail-container">
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam perspiciatis
+                                labore nesciunt tenetur explicabo iusto itaque quae quisquam, repellat a harum dolorum
+                                quis culpa, enim porro rem et consequuntur.
+                                Molestias sint, dolores veniam perferendis esse exercitationem harum soluta inventore,
+                                nihil veritatis iure consectetur ipsum architecto a illum, incidunt eum? Tenetur
+                                cupiditate quidem possimus exercitationem similique assumenda earum hic. Assumenda?
+                                Unde repellendus aliquid fugiat veritatis quae molestiae, dicta sit eaque nesciunt
+                                sapiente quo corporis, eius, voluptates magni debitis voluptas sunt ut laborum?
+                                Voluptatibus nam rem, molestiae totam quod eligendi esse!
+                                Voluptate, officia. Architecto minus, quia rem aliquid quos nemo sapiente ratione quo ab
+                                dolore libero dolorem laudantium hic nisi iure quaerat tempore a temporibus animi odio.
+                                Dolores aliquam repudiandae doloribus?
+                                Esse beatae placeat sint cumque, similique perspiciatis et deserunt sequi aliquam odit
+                                est voluptate sit labore? Molestiae esse asperiores earum saepe temporibus assumenda quo
+                                possimus? Nam saepe a officia animi.</p>
+                            <button type="button" class="text-capitalize more-details-btn">more details</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial section start here -->
+    <section>
+        <div class="testimonial-section my-5 px-3">
+            <div class="container-fluid">
+                <h2 class="text-center mb-3">Testimonials</h2>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-3">
+                        <div class="testimonial-card">
+                            <div class="user-name-sec pt-3">
+                                <h5 class="">John Doe</h5>
+                            </div>
+                            <div class="review-sec">
+                                <div class="avatar-img">
+                                    <img src="images/avatar.png" alt="avatar-image">
+                                </div>
+                                <p class="review">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+                                    erat vel velit
+                                    efficitur commodo. "</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="testimonial-card highlight-card">
+                            <div class="user-name-sec pt-3">
+                                <h5 class="">John Doe</h5>
+                            </div>
+                            <div class="review-sec">
+                                <div class="avatar-img">
+                                    <img src="images/avatar.png" alt="avatar-image">
+                                </div>
+                                <p class="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat,
+                                    esse amet omnis nihil qui est molestiae alias, velit possimus, ipsa cumque soluta?
+                                    Minima quae repudiandae, corporis vero velit quo rem.
+                                    Velit ipsam consequuntur quis necessitatibus qui molestiae nobis alias aperiam sunt,
+                                    eos tempora, aspernatur ea ullam adipisci facilis quas libero soluta sequi mollitia,
+                                    ad voluptatem maxime laboriosam provident? Exercitationem, neque.
+                                    .</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="testimonial-card">
+                            <div class="user-name-sec pt-3">
+                                <h5 class="">John Doe</h5>
+                            </div>
+                            <div class="review-sec">
+                                <div class="avatar-img">
+                                    <img src="images/avatar.png" alt="avatar-image">
+                                </div>
+                                <p class="review">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
+                                    erat vel velit
+                                    efficitur commodo. "</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start here -->
+    <section>
+        <div class="contact-section my-5 px-3">
+            <div class="container-fluid">
+                <!-- <h2 class="text-center mb-3">Contact</h2> -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contact-form">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Name" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter email" />
+                                    <div id="emailHelp" class="form-text">
+                                        We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                                    <input type="number" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Number" />
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div style="width: 100%; height: 400px;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.606885637977!2d78.04130987451753!3d27.17514447646689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397471d3e2e3b5af%3A0x4f47d89b78a7898!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1699530150710!5m2!1sen!2sin"
+                                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start here -->
+    <footer class=" footer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 d-flex flex-column align-items-center text-center">
+                    <div class="footer-logo mb-2">
+                        <img src="images/logo.png" alt="logo" />
+                    </div>
+                    <p class="footer-description text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam,
+                        quidem.</p>
+                    <div class="social-icons d-flex gap-3 justify-content-center mt-2 align-items-center">
+                        <div class="social-iocn">
+                            <img src="images/facebook.png" alt="icon">
+                        </div>
+                        <div class="social-iocn">
+                            <img src="images/instagram.png" alt="icon">
+                        </div>
+                        <div class="social-iocn">
+                            <img src="images/youtube.png" alt="icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <h5 class="mb-2">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <h5 class="mb-2">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Replacement</a></li>
+                        <li><a href="#">Customization</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <h5 class="mb-2">Contact</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Address: 123 Main Street, City</a></li>
+                        <li><a href="#">Phone: (123) 456-7890</a></li>
+                        <li><a href="#">Email: 2o5H1@example.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <div class="copyright-sec">
+        <p class="copyright text-center">Copyright &copy; 2025 Your Company Name</p>
+    </div>
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- main js  -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

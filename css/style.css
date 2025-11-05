@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,p,a{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    width: 70px;
+    height: auto;
+    /* border: 1px solid #d60202; */
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(45deg, #30528F, #001336);
+}
+.banner-image{
+    width: 40vw;
+    /* height: auto; */
+    float: right;
+    position: relative;
+    top: 3rem;
+    box-shadow: 0px;
+    
+}
+
+.nav-link {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.active {
+    color: #4785f8 !important;
+    border-bottom: 1px solid #4785f8;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    gap: 50px;
+}
+
+.navbar-row {
+    /* background: #8d9ab2ab; */
+}
+.search-input{
+    background: rgba(255, 255, 255, 0.116);
+    border: 1px solid rgb(253, 253, 253);
+    /* width: 70%; */
+}
+.search-input::placeholder{
+    color: rgb(148, 148, 148);
+}
+.search-btn{
+    background: #294b8b;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* category css start here  */
+.category-section {
+    padding: 0 50px;
+}
+
+.category-item {
+    padding: 5px;
+}
+
+.residential {
+    background-image: url(../images/residential.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.commercial {
+    background-image: url(../images/commercial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.industrial {
+    background-image: url(../images/industrial.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.outdoor {
+    background-image: url(../images/outdoor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 10px; */
+}
+
+.category-name {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    position: absolute;
+    box-shadow: 0px 0px 20px 13px rgba(0, 0, 0, 0.3);
+}
+
+/* about section CSS start here  */
+.about-image {
+    height: 300px;
+    overflow: hidden;
+    background-image: url(../images/picture-of-light-bulb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+
+.inner-shadow {
+    position: absolute;
+    background: linear-gradient(270deg, rgb(218, 218, 218), rgba(255, 255, 255, 0));
+    height: 100%;
+    right: 0;
+    width: 7rem;
+}
+
+.read-more-btn {
+    background-color: #30528F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-container {
+    position: relative;
+    left: -4rem;
+}
+
+
+/* our item css start here */
+.item-info {
+    background: #84a9ec;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    height: 10rem;
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-img {
+    width: 50%;
+}
+
+/* product details section start here  */
+.item-detail-image {
+    height: 400px;
+    overflow: hidden;
+    background-image: url(../images/product-3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.name {
+    background: #84a9ec;
+    width: 30%;
+    padding: 10px;
+}
+
+.more-details-btn {
+    background-color: #30528F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* testimonial section css start here  */
+.testimonial-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #d8e7ff;
+    height: 200px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.user-name-sec {
+    background: #f3f6fc;
+    border-bottom: 1px dashed #ccc;
+    height: 40%;
+}
+
+
+.avatar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    top: -25px;
+    background: white;
+}
+
+.review {
+    padding: 0 10px;
+    position: relative;
+    top: -6px;
+    font-size: 0.7rem;
+}
+.highlight-card{
+    height: 300px;
+}
+
+/* contact section start here */
+.contact-section {
+  position: relative;
+  color: white;
+  padding: 50px 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/lighting-home_759_getty.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(8px); /* 👈 Adjust blur strength */
+  transform: scale(1.1); /* avoid visible edges */
+  z-index: -1;
+  opacity: 0.9;
+}
+.form-text{
+    color: white;
+}
+
+
+/* footer section start here */
+.footer-section {
+    background: #001336;
+    color: white;
+    padding: 2rem;
+}
+.footer-logo{
+    width: 100px;
+    background: white;
+    /* border-radius: 10px; */
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+.social-iocn{
+    width: 30px;
+}
+.copyright-sec{
+    background: #000b1a;
+    color: white;
+
+    text-align: center;
+    padding: 10px 0;
+}
