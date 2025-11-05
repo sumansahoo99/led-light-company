@@ -7,6 +7,15 @@ ul,p,a{
     padding: 0 !important;
     margin: 0 !important;
 }
+:root{
+    --primary-color: #30528F;
+    --secondary-color: #001336;
+    --accent-color: #4785f8;
+    --light-color: #f3f6fc;
+    --dark-color: #000b1a;
+    --text-color: #333333;
+    --background-color: #f9f9f9;
+}
 
 img {
     max-width: 100%;
@@ -35,7 +44,7 @@ header .logo {
     position: relative;
     top: 3rem;
     box-shadow: 0px;
-    
+
 }
 
 .nav-link {

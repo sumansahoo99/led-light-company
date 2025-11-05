@@ -1,0 +1,60 @@
+.navbar{
+    background: var(--secondary-color);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.banner-img{
+    background-image: url(../images/category-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.category-box{
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(6, 31, 110, 0.342);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    background: var(--accent-color);
+}
+.category-image{
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.category-image-1{
+    background-image: url(../images/category-1.png);
+    
+}
+.category-image-2{
+    background-image: url(../images/category-2.jpg);
+}
+.category-image-3{
+    background-image: url(../images/cstegory-3.png);
+}
+.category-image-4{
+    background-image: url(../images/catehory-5.png);
+}
+.category-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(6, 31, 110, 0.342);
+}
+.view-btn{
+    background-color: #30528F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
