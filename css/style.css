@@ -25,6 +25,7 @@ img {
 header{
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 header .logo {
@@ -36,15 +37,21 @@ header .logo {
 .banner {
     height: 80vh;
     background: linear-gradient(45deg, #30528F, #001336);
+    position: relative;
 }
 .banner-image{
-    width: 40vw;
+    width: 23vw;
     /* height: auto; */
     float: right;
     position: relative;
     top: 3rem;
     box-shadow: 0px;
-
+    right: 3rem ;
+}
+.factory-img{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
 }
 
 .nav-link {
@@ -81,7 +88,10 @@ header .logo {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.banner-content{
+    width: 45%;
+    margin: 6rem auto 0;
+}
 
 /* category css start here  */
 .category-section {

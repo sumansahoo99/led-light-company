@@ -10,3 +10,4 @@ var swiper = new Swiper(".mySwiper", {
     //   loopedSlides: 6,
     });
 
+
