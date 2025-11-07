@@ -10,7 +10,7 @@
 .item-detail-image{
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: auto;
     overflow: visible !important;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(6, 31, 110, 0.342);
@@ -45,4 +45,20 @@
 }
 .sub-img-last{
     right: 10%;
+}
+
+
+.spacifice-part{
+    width: 70px;
+    height: 70px;
+    background: url(../images/asidebar-image.png);    
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    box-shadow: 7px 4px 13px 1px rgba(2, 14, 54, 0.61);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.spacifice-part-details{
+    width: 60%;
 }
