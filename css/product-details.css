@@ -1,0 +1,48 @@
+.product-details-banner{
+    background: var(--background-color2);
+}
+
+/* product-setails main section start here */
+.warranty-support{
+    background: var(--background-color2);
+    padding: 1rem 0;
+}
+.item-detail-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: visible !important;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(6, 31, 110, 0.342);
+    object-position: center;
+    position: relative;
+    z-index: 1;
+}
+.fetchers{
+    border-right: 1px solid var(--primary-color);
+}
+.fetchers-text{
+    color: var(--primary-color);
+}
+.replacement{
+    border: none !important;
+}
+.sub-img{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    cursor: pointer;
+    bottom: -3rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.sub-img-middle{
+    left: 40%;
+}
+.sub-img-first{
+    left: 10%;
+}
+.sub-img-last{
+    right: 10%;
+}
