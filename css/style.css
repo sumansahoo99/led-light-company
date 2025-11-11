@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: var(--body-font-family);
+}
 
 ul,
 p,
@@ -20,6 +23,10 @@ a {
     --text-color: #333333;
     --background-color: #c1d8ff;
     --background-color2: #c4d4ff;
+
+
+    --heading-font-family: "Poppins", sans-serif;
+    --body-font-family: "Roboto", sans-serif;
 }
 
 img {

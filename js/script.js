@@ -11,3 +11,11 @@ var swiper = new Swiper(".mySwiper", {
     });
 
 
+
+  const input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    initialCountry: "in", // default India
+    separateDialCode: true, // shows +91 outside input
+  });
+
+

@@ -1,6 +1,9 @@
 .product-details-banner{
     background: var(--background-color2);
 }
+.heading-text{
+    color: var(--primary-color);
+}
 
 /* product-setails main section start here */
 .warranty-support{
@@ -59,6 +62,48 @@
     background-size: cover;
     background-position: center;
 }
+.type-of-features{
+    width: 76%;
+     margin: auto; 
+}
 .spacifice-part-details{
-    width: 60%;
+    width: 87%;
+}
+.typeof-features{
+    margin: auto; 
+    width: 76%;
+}
+
+/* Features section start here  */
+.features{
+    width: 80%;
+}
+.feature-icon{
+    background: var(--primary-color);
+    padding: 1rem;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-icon img {
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--background-color2) ;
+  border-radius: 100px;
+}
+
+.more-product-image{
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(6, 31, 110, 0.342);
+}
+.product-name{
+    color: black;
+    display: inline-flex;
+    gap: 20px;
 }
