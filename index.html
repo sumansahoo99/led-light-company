@@ -22,59 +22,60 @@
         rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
+    <!-- <div class="cursor"></div> -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg container-fluid">
+            <!-- logo  -->
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/logo.png" alt="logo" />
+            </a>
+
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-4">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="d-flex align-items-center gap-3 ms-auto">
+                <form class="d-flex search-sec" role="search">
+                    <input class="form-control me-2 search-input" type="search" placeholder="Search" />
+                    <button class="search-btn" type="submit">Search</button>
+                </form>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+                <button class="navbar-toggler menu-bar" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Banner section BELOW header -->
     <div class="banner">
-        <header>
-            <nav class="navbar navbar-expand-lg container-fluid">
-                <div class="row d-flex align-items-center justify-content-between w-100 navbar-row">
-                    <div class="col-lg-2">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="images/logo.png" alt="logo" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav gap-4">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-end">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2 search-input" type="search" placeholder="Search"
-                                aria-label="Search" />
-                            <button class="search-btn" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </header>
         <div class="banner-image">
             <img src="images/banner-light.png" alt="">
         </div>
         <div class="factory-img">
             <img src="images/factory-lighting.png" alt="">
         </div>
-        <div class="text-center banner-content ">
-            <h1 class="text-uppercase  text-white">Lorem ipsum dolor sit</h1>
-            <p class=" text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsum quas eligendi
-                accusamus corrupti esse soluta, repellendus error quod iusto</p>
-            <button type="button" class="btn text-capitalize text-white btn-success mt-3">explore now</button>
+        <div class="banner-content d-flex flex-column align-items-center">
+            <h1 class="text-uppercase text-white">Lorem ipsum dolor sit</h1>
+            <p class="text-white-50 banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vero ipsum quas eligendi accusamus corrupti esse soluta, repellendus error quod iusto</p>
+            <button type="button" class="btn text-capitalize text-white btn-success mt-5">explore now</button>
         </div>
     </div>
 
@@ -112,7 +113,7 @@
         <div class="about-section my-5 px-3">
             <div class="container-fluid">
                 <h2 class="text-center mb-3">About Us</h2>
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-lg-5">
                         <div class="about-image">
                             <div class="inner-shadow"></div>
@@ -120,7 +121,14 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="about-container">
-                            <p>
+                            <p class="about-text">
+                                Welcome to our company! We are dedicated to providing top-notch services and
+                                products to our customers. Our team of experts works tirelessly to ensure
+                                customer satisfaction and deliver exceptional results. With years of
+                                experience in the industry, we pride ourselves on our professionalism,
+                                reliability, and commitment to excellence. Thank you for choosing us as your
+                                trusted partner.
+
                                 Welcome to our company! We are dedicated to providing top-notch services and
                                 products to our customers. Our team of experts works tirelessly to ensure
                                 customer satisfaction and deliver exceptional results. With years of
@@ -128,16 +136,10 @@
                                 reliability, and commitment to excellence. Thank you for choosing us as your
                                 trusted partner.
                             </p>
-                            <p>
-                                Welcome to our company! We are dedicated to providing top-notch services and
-                                products to our customers. Our team of experts works tirelessly to ensure
-                                customer satisfaction and deliver exceptional results. With years of
-                                experience in the industry, we pride ourselves on our professionalism,
-                                reliability, and commitment to excellence. Thank you for choosing us as your
-                                trusted partner.
-                            </p>
-                            <button type="button" class="read-more-btn">Read More</button>
+                            <a href="#" class="read-more">Read More</a>
                         </div>
+
+
                     </div>
                 </div>
 
@@ -313,7 +315,7 @@
         <div class="contact-section my-5 px-3">
             <div class="container-fluid">
                 <!-- <h2 class="text-center mb-3">Contact</h2> -->
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                     <div class="col-lg-4">
                         <div class="contact-form">
                             <form>
@@ -343,8 +345,8 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-8">
-                        <div style="width: 100%; height: 400px;">
+                    <div class="col-lg-5">
+                        <div class="map">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.606885637977!2d78.04130987451753!3d27.17514447646689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397471d3e2e3b5af%3A0x4f47d89b78a7898!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1699530150710!5m2!1sen!2sin"
                                 width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
@@ -421,7 +423,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- main js  -->
-    <script src="js/script.js"></script>
+    <script src="js/common.js"></script>
 </body>
 
 </html>
