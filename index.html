@@ -11,6 +11,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
     <!-- main css  -->
     <link rel="stylesheet" href="css/style.css" />
@@ -41,9 +43,9 @@
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav gap-4">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
             </div>
@@ -63,6 +65,13 @@
             </div>
         </nav>
     </header>
+
+    <!-- cursor  -->
+    <div id="custom-cursor">
+        <div class="cursor-ring"></div> <!-- outer border ring -->
+        <div class="cursor-fill"></div> <!-- filled circle between ring and dot -->
+        <div class="cursor-dot"></div>
+    </div>
     <!-- Banner section BELOW header -->
     <div class="banner">
         <div class="banner-image">
@@ -75,12 +84,12 @@
             <h1 class="text-uppercase text-white">Lorem ipsum dolor sit</h1>
             <p class="text-white-50 banner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Vero ipsum quas eligendi accusamus corrupti esse soluta, repellendus error quod iusto</p>
-            <button type="button" class="btn text-capitalize text-white btn-success mt-5">explore now</button>
+            <button type="button" class="search-btn text-capitalize text-white btn-success mt-5">explore now</button>
         </div>
     </div>
 
     <!-- category section start here -->
-    <section class="category-section my-5 text-center">
+    <section class="category-section section text-center">
         <!-- <h2 class="mb-3">our product category</h2> -->
         <div class="container-fluid">
             <div class="row">
@@ -95,11 +104,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 category-item">
-                    <div class="industrial item">
+                    <div class="industrial item" data-aos="zoom-in-left">
                         <h3 class="category-name capitalize">Industrial</h3>
                     </div>
                 </div>
-                <div class="col-lg-8 category-item">
+                <div class="col-lg-8 category-item" data-aos="zoom-in-left">
                     <div class="outdoor item">
                         <h3 class="category-name capitalize">Outdoor</h3>
                     </div>
@@ -109,17 +118,17 @@
     </section>
 
     <!-- about section start here -->
-    <section>
-        <div class="about-section my-5 px-3">
+    <section class="section">
+        <div class="about-section px-3">
             <div class="container-fluid">
                 <h2 class="text-center mb-3">About Us</h2>
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-5">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-lg-4">
                         <div class="about-image">
                             <div class="inner-shadow"></div>
                         </div>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-5">
                         <div class="about-container">
                             <p class="about-text">
                                 Welcome to our company! We are dedicated to providing top-notch services and
@@ -149,24 +158,33 @@
 
 
     <!-- our item section start here  -->
-    <section>
+    <section class="section">
         <div class="items-section my-5 px-3">
             <div class="container-fluid">
                 <h2 class="text-center mb-3">Our Products</h2>
                 <div class=" swiper mySwiper" dir="ltr">
                     <div class="item-card swiper-wrapper">
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-1.png" alt="">
                             </div>
                         </div>
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-2.png" alt="">
                             </div>
 
                         </div>
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-3.png" alt="">
                             </div>
@@ -174,6 +192,9 @@
 
                         </div>
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-4.png" alt="">
                             </div>
@@ -181,6 +202,9 @@
 
                         </div>
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-5.png" alt="">
                             </div>
@@ -188,12 +212,18 @@
 
                         </div>
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-3.png" alt="">
                             </div>
 
                         </div>
                         <div class="item-info swiper-slide">
+                            <div class="pro-name">
+                                Name
+                            </div>
                             <div class="item-img">
                                 <img src="images/product-1.png" alt="">
                             </div>
@@ -206,19 +236,32 @@
     </section>
 
     <!-- product details section start here -->
-    <section>
+    <section class="section">
         <div class="item-details-section my-5 px-3">
             <div class="container-fluid">
-                <h2 class="text-center mb-3">Product Details</h2>
+
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="item-detail-image">
-                            <div class="name">
-                                <h4 class="item-name md-3">Product Name</h4>
+                        <div class="swiper img-swiper ">
+                            <div class="product-name">
+                                <h3>Product Name</h3>
                             </div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide item-detail-image item-detail-image1">
+                                    <img src="images/product-3.png" alt="">
+                                </div>
+                                <div class="swiper-slide item-detail-image item-detail-image2">
+                                    <img src="images/cob-spot-light.png" alt="">
+                                </div>
+                                <div class="swiper-slide item-detail-image item-detail-image3">
+                                    <img src="images/prodetails-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="col-lg-6">
+                        <h2 class=" mb-3">Product Details</h2>
                         <div class="item-detail-container">
 
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ullam perspiciatis
@@ -236,7 +279,8 @@
                                 Esse beatae placeat sint cumque, similique perspiciatis et deserunt sequi aliquam odit
                                 est voluptate sit labore? Molestiae esse asperiores earum saepe temporibus assumenda quo
                                 possimus? Nam saepe a officia animi.</p>
-                            <button type="button" class="text-capitalize more-details-btn">more details</button>
+                            <button type="button" class="text-capitalize more-details-btn explore-btn btn mt-3">more
+                                details</button>
                         </div>
                     </div>
                 </div>
@@ -246,7 +290,7 @@
     </section>
 
     <!-- testimonial section start here -->
-    <section>
+    <section class="section">
         <div class="testimonial-section my-5 px-3">
             <div class="container-fluid">
                 <h2 class="text-center mb-3">Testimonials</h2>
@@ -282,7 +326,7 @@
                                     Velit ipsam consequuntur quis necessitatibus qui molestiae nobis alias aperiam sunt,
                                     eos tempora, aspernatur ea ullam adipisci facilis quas libero soluta sequi mollitia,
                                     ad voluptatem maxime laboriosam provident? Exercitationem, neque.
-                                    .</p>
+                                </p>
                             </div>
 
                         </div>
@@ -311,7 +355,7 @@
     </section>
 
     <!-- contact section start here -->
-    <section>
+    <section class="section">
         <div class="contact-section my-5 px-3">
             <div class="container-fluid">
                 <!-- <h2 class="text-center mb-3">Contact</h2> -->
@@ -341,7 +385,7 @@
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1" />
                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-on-bgimage">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -422,6 +466,9 @@
         crossorigin="anonymous"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <!-- main js  -->
     <script src="js/common.js"></script>
 </body>
